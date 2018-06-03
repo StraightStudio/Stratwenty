@@ -1,0 +1,15 @@
+{
+	"name" : "Menu",
+	"author" : "Dennis Mitten",
+	"objects" :
+	{
+		"mario_1" :
+		{
+			"x"   : 100,
+			"y"   : 100,
+			"w"   : 128,
+			"h"   : 128,
+			"textures" : ["mario_00","mario_01"]
+		}
+	}
+}
