@@ -1,0 +1,16 @@
+{
+	"name" : "Menu",
+	"author" : "Dennis Mitten",
+	"objects" :
+	{
+		"stalin" : 
+		{
+			"x"   : 100,
+			"y"   : 100,
+			"w"   : 384,
+			"h"   : 512,
+			"textures" : ["stalin"],
+			"type" : "static"
+		}
+	}
+}
