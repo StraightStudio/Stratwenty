@@ -3,14 +3,16 @@
 	"author" : "Dennis Mitten",
 	"objects" :
 	{
-		"mario" : 
+		"mario_01" : 
 		{
 			"x"   : 100,
 			"y"   : 100,
-			"w"   : 384,
-			"h"   : 512,
+			"w"   : 256,
+			"h"   : 384,
 			"textures" : ["mario"],
+			"fps" : 0,
 			"type" : "static"
 		}
-	}
+	},
+	"bg-track" : "n_one"
 }
