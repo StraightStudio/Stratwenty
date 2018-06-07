@@ -2,6 +2,7 @@
 	"play_btn" :
 	{
 		"img"			: "play_btn.png",
+		"fps"			: 0,
 		"frame-w" 		: 1280,
 		"frame-h" 		: 720,
 		"frame-count"	: 1
@@ -9,6 +10,7 @@
 	"quit_btn" :
 	{
 		"img"			: "quit_btn.png",
+		"fps"			: 0,
 		"frame-w" 		: 1280,
 		"frame-h" 		: 720,
 		"frame-count"	: 1

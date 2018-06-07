@@ -1,18 +1,18 @@
 {
 	"ussr_sw" :
 	{
-		"img"			: "ussr_sw.png",
+		"img"			: "ussr_soldier_walking.png",
+		"fps"			: 15,
 		"frame-w" 		: 36,
 		"frame-h" 		: 36,
-		"fps"			: 20,
 		"frame-count"	: 48
 	},
 	"ussr_dance" :
 	{
-		"img"			: "ussr_dance.png",
+		"img"			: "ussr_soldier_dance.png",
+		"fps"			: 15,
 		"frame-w" 		: 36,
 		"frame-h" 		: 36,
-		"fps"			: 30,
 		"frame-count"	: 14
 	}
 }
