@@ -1,0 +1,18 @@
+{
+	"ussr_sw" :
+	{
+		"img"			: "ussr_sw.png",
+		"frame-w" 		: 36,
+		"frame-h" 		: 36,
+		"fps"			: 20,
+		"frame-count"	: 48
+	},
+	"ussr_dance" :
+	{
+		"img"			: "ussr_dance.png",
+		"frame-w" 		: 36,
+		"frame-h" 		: 36,
+		"fps"			: 30,
+		"frame-count"	: 14
+	}
+}

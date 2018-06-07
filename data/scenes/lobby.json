@@ -3,15 +3,77 @@
 	"author" : "Dennis Mitten",
 	"objects" :
 	{
-		"mario_01" : 
+		"conscrip-1" : 
 		{
-			"x"   : 100,
-			"y"   : 100,
-			"w"   : 256,
-			"h"   : 384,
-			"textures" : ["mario"],
-			"fps" : 0,
-			"type" : "static"
+			"x"   		: 100,
+			"y"   		: 100,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_dance"],
+			"type" 		: "static"
+		},
+		"conscrip-2" : 
+		{
+			"x"   		: 400,
+			"y"   		: 100,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_sw"],
+			"type" 		: "static"
+		},
+		"conscrip-3" : 
+		{
+			"x"   		: 700,
+			"y"   		: 100,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_dance"],
+			"type" 		: "static"
+		},
+		"conscrip-4" : 
+		{
+			"x"   		: 1000,
+			"y"   		: 100,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_sw"],
+			"type" 		: "static"
+		},
+		"conscrip-5" : 
+		{
+			"x"   		: 100,
+			"y"   		: 400,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_sw"],
+			"type" 		: "static"
+		},
+		"conscrip-6" : 
+		{
+			"x"   		: 400,
+			"y"   		: 400,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_dance"],
+			"type" 		: "static"
+		},
+		"conscrip-7" : 
+		{
+			"x"   		: 700,
+			"y"   		: 400,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_sw"],
+			"type" 		: "static"
+		},
+		"conscrip-8" : 
+		{
+			"x"   		: 1000,
+			"y"   		: 400,
+			"w"   		: 128,
+			"h"   		: 192,
+			"animations": ["ussr_dance"],
+			"type" 		: "static"
 		}
 	},
 	"bg-track" : "n_one"
