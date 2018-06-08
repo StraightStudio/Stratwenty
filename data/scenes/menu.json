@@ -3,28 +3,28 @@
 	"author" : "Dennis Mitten",
 	"objects" :
 	{
-		"play_button"		:
+		"play"			:
 		{
 			"x"   		: 100,
 			"y"   		: 100,
 			"w"   		: 86,
 			"h"   		: 48,
 
-			"animations": ["play_btn"],
-			"fps" 		: 0,
+			"texture"	: "play_btn",
+			"animation" : "play_btn",
 			"type" 		: "button",
 			"hover"		: "snd hover",
 			"click"		: "scn lobby.json"
 		},
-		"quit_button" 		: 
+		"quit"	 		: 
 		{
 			"x"   		: 100,
 			"y"   		: 200,
 			"w"   		: 86,
 			"h"   		: 48,
 
-			"animations": ["quit_btn"],
-			"fps"		: 0,
+			"texture"	: "quit_btn",
+			"animation" : "quit_btn",
 			"type" 		: "button",
 			"hover"		: "snd hover",
 			"click"		: "quit"	

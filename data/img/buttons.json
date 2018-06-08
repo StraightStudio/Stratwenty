@@ -1,19 +1,22 @@
 {
-	"play_btn" :
+	"animations"			:
 	{
-		"img"			: "play_btn.png",
-		"fps"			: 0,
-		"frame-w" 		: 1280,
-		"frame-h" 		: 720,
-		"frame-count"	: 1
-	},
-	"quit_btn" :
-	{
-		"img"			: "quit_btn.png",
-		"fps"			: 0,
-		"frame-w" 		: 1280,
-		"frame-h" 		: 720,
-		"frame-count"	: 1
+		"play_btn"			:
+		{
+			"startframe"	: 0,
+			"fps"			: 0,
+			"frame-w" 		: 1280,
+			"frame-h" 		: 720,
+			"frame-count"	: 1
+		},
+		"quit_btn"			:
+		{
+			"startframe"	: 0,
+			"fps"			: 0,
+			"frame-w" 		: 1280,
+			"frame-h" 		: 720,
+			"frame-count"	: 1
+		}
 	}
 }
  

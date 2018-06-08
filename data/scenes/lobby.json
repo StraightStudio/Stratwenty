@@ -3,77 +3,25 @@
 	"author" : "Dennis Mitten",
 	"objects" :
 	{
+		"conscrip-0" : 
+		{
+			"x"   		: 200,
+			"y"   		: 100,
+			"w"   		: 64,
+			"h"   		: 72,
+			"texture"	: "ussr_soldier",
+			"animation"	: "ussr_sw",
+			"type" 		: "actor"
+		},
 		"conscrip-1" : 
 		{
-			"x"   		: 100,
-			"y"   		: 100,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_dance"],
-			"type" 		: "static"
-		},
-		"conscrip-2" : 
-		{
 			"x"   		: 400,
 			"y"   		: 100,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_sw"],
-			"type" 		: "static"
-		},
-		"conscrip-3" : 
-		{
-			"x"   		: 700,
-			"y"   		: 100,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_dance"],
-			"type" 		: "static"
-		},
-		"conscrip-4" : 
-		{
-			"x"   		: 1000,
-			"y"   		: 100,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_sw"],
-			"type" 		: "static"
-		},
-		"conscrip-5" : 
-		{
-			"x"   		: 100,
-			"y"   		: 400,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_sw"],
-			"type" 		: "static"
-		},
-		"conscrip-6" : 
-		{
-			"x"   		: 400,
-			"y"   		: 400,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_dance"],
-			"type" 		: "static"
-		},
-		"conscrip-7" : 
-		{
-			"x"   		: 700,
-			"y"   		: 400,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_sw"],
-			"type" 		: "static"
-		},
-		"conscrip-8" : 
-		{
-			"x"   		: 1000,
-			"y"   		: 400,
-			"w"   		: 128,
-			"h"   		: 192,
-			"animations": ["ussr_dance"],
-			"type" 		: "static"
+			"w"   		: 64,
+			"h"   		: 72,
+			"texture"	: "ussr_soldier",
+			"animation"	: "ussr_sw",
+			"type" 		: "actor"
 		}
 	},
 	"bg-track" : "ussr_hymn"
