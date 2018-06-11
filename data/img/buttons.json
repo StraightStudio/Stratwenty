@@ -16,6 +16,14 @@
 			"frame-w" 		: 1280,
 			"frame-h" 		: 720,
 			"frame-count"	: 1
+		},
+		"struct_action_btn"	:
+		{
+			"startframe"	: 0,
+			"fps"			: 0,
+			"frame-w" 		: 128,
+			"frame-h" 		: 128,
+			"frame-count"	: 1	
 		}
 	}
 }

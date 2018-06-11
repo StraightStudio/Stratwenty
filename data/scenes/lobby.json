@@ -3,66 +3,35 @@
 	"author" : "Dennis Mitten",
 	"objects" :
 	{
-		"conscrip-0" : 
+		"buy_conscript"	:
 		{
-			"x"   		: 100,
-			"y"   		: 100,
+			"x"   		: 0,
+			"y"   		: 0,
 			"w"   		: 64,
-			"h"   		: 72,
-			"rw"		: 48,
-			"rh"		: 64,
-			"texture"	: "ussr_soldier",
-			"animation"	: "ussr_sw",
-			"type" 		: "actor"
+			"h"   		: 64,
+			
+			"texture"	: "conscript_btn",
+			"animation" : "struct_action_btn",
+			"type" 		: "button",
+			"hover"		: "snd hover",
+			"click"		: "spw conscript"
 		},
-		"conscrip-1" : 
+		"ubarracks"		:
 		{
 			"x"   		: 200,
-			"y"   		: 200,
-			"w"   		: 64,
-			"h"   		: 72,
-			"rw"		: 48,
-			"rh"		: 64,
-			"texture"	: "ussr_soldier",
-			"animation"	: "ussr_sw",
-			"type" 		: "actor"
-		},
-		"conscrip-2" : 
-		{
-			"x"   		: 300,
 			"y"   		: 300,
-			"w"   		: 64,
-			"h"   		: 72,
-			"rw"		: 48,
-			"rh"		: 64,
-			"texture"	: "ussr_soldier",
-			"animation"	: "ussr_sw",
-			"type" 		: "actor"
-		},
-		"conscrip-3" : 
-		{
-			"x"   		: 400,
-			"y"   		: 100,
-			"w"   		: 64,
-			"h"   		: 72,
-			"rw"		: 48,
-			"rh"		: 64,
-			"texture"	: "ussr_soldier",
-			"animation"	: "ussr_sw",
-			"type" 		: "actor"
-		},
-		"conscrip-4" : 
-		{
-			"x"   		: 800,
-			"y"   		: 500,
-			"w"   		: 64,
-			"h"   		: 72,
-			"rw"		: 48,
-			"rh"		: 64,
-			"texture"	: "ussr_soldier",
-			"animation"	: "ussr_sw",
-			"type" 		: "actor"
+			"w"   		: 172,
+			"h"   		: 172,
+			"rw"		: 150,
+			"rh"		: 172,
+
+			"sox"		: 24,
+			"soy"		: 128,
+			"stype"		: "barracks",
+
+			"texture"	: "ussr_barracks",
+			"animation"	: "ussr_barracks",
+			"type" 		: "building"
 		}
-	},
-	"bg-track" : "amadeus_superior"
+	}
 }
