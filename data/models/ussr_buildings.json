@@ -1,0 +1,17 @@
+ {
+ 	"ussr_barracks" :
+ 	{
+ 			"w"   		: 172,
+			"h"   		: 172,
+			"rw"		: 96,
+			"rh"		: 172,
+
+			"sox"		: 24,
+			"soy"		: 128,
+			"stype"		: "barracks",
+
+			"texture"	: "ussr_barracks",
+			"animation"	: "ussr_barracks",
+			"type" 		: "building"
+ 	}
+ }

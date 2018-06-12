@@ -17,12 +17,12 @@
 			"frame-h" 		: 720,
 			"frame-count"	: 1
 		},
-		"struct_action_btn"	:
+		"ui_button"			:
 		{
 			"startframe"	: 0,
 			"fps"			: 0,
-			"frame-w" 		: 128,
-			"frame-h" 		: 128,
+			"frame-w" 		: 64,
+			"frame-h" 		: 64,
 			"frame-count"	: 1	
 		}
 	}

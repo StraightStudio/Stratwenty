@@ -1,0 +1,57 @@
+{
+	"start_btn" :
+	{
+		"w"   		: 86,
+		"h"   		: 48,
+
+		"texture"	: "play_btn",
+		"animation" : "play_btn",
+		"type" 		: "button",
+		"hover"		: "snd hover",
+		"click"		: "scn lobby.json"
+	},
+	"netstart_btn" :
+	{
+		"w"   		: 86,
+		"h"   		: 48,
+
+		"texture"	: "play_btn",
+		"animation" : "play_btn",
+		"type" 		: "button",
+		"hover"		: "snd hover",
+		"click"		: "scn net_lobby.json"
+	},
+	"quit_btn" :
+	{
+		"w"   		: 86,
+		"h"   		: 48,
+
+		"texture"	: "quit_btn",
+		"animation" : "quit_btn",
+		"type" 		: "button",
+		"hover"		: "snd hover",
+		"click"		: "quit"
+	},
+	"buy_conscript_btn" :
+	{
+		"w"   		: 64,
+		"h"   		: 64,
+		
+		"texture"	: "conscript_btn",
+		"animation" : "ui_button",
+		"type" 		: "button",
+		"hover"		: "snd hover",
+		"click"		: "spw conscript"
+	},
+	"buy_rocketman_btn" :
+	{
+		"w"   		: 64,
+		"h"   		: 64,
+		
+		"texture"	: "rocketman_btn",
+		"animation" : "ui_button",
+		"type" 		: "button",
+		"hover"		: "snd hover",
+		"click"		: "spw rocketman"
+	}
+}

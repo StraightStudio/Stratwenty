@@ -3,7 +3,7 @@
 	{
 		"ussr_barracks" :
 		{
-			"startframe" : 0,
+			"startframe" 	: 0,
 			"fps"			: 0,
 			"frame-w" 		: 172,
 			"frame-h" 		: 172,

@@ -1,37 +1,26 @@
 {
-	"name" : "Menu",
-	"author" : "Dennis Mitten",
-	"objects" :
+	"name"				: "TestLobby",
+	"author"			: "Dennis Mitten",
+	"type"				: "game",
+	"objects"			:
 	{
 		"buy_conscript"	:
 		{
-			"x"   		: 0,
-			"y"   		: 0,
-			"w"   		: 64,
-			"h"   		: 64,
-			
-			"texture"	: "conscript_btn",
-			"animation" : "struct_action_btn",
-			"type" 		: "button",
-			"hover"		: "snd hover",
-			"click"		: "spw conscript"
+			"x"   		: 172,
+			"y"   		: -154,
+			"model"		: "buy_conscript_btn"
+		},
+		"buy_rocketman"	:
+		{
+			"x"   		: 172,
+			"y"   		: -77,
+			"model"		: "buy_rocketman_btn"
 		},
 		"ubarracks"		:
 		{
 			"x"   		: 200,
 			"y"   		: 300,
-			"w"   		: 172,
-			"h"   		: 172,
-			"rw"		: 150,
-			"rh"		: 172,
-
-			"sox"		: 24,
-			"soy"		: 128,
-			"stype"		: "barracks",
-
-			"texture"	: "ussr_barracks",
-			"animation"	: "ussr_barracks",
-			"type" 		: "building"
+			"model"		: "ussr_barracks"
 		}
 	}
 }

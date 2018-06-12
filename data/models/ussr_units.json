@@ -1,0 +1,16 @@
+{
+	"ussr_soldier" :
+ 	{
+		"w"   		: 64,
+		"h"   		: 72,
+		"rw"		: 32,
+		"rh"		: 48,
+
+		"texture"	: "ussr_soldier",
+		"animation"	: "ussr_sw",
+		"type" 		: "actor",
+
+		"sel-taunts": ["USTS_01", "USTS_02", "USTS_03"],
+		"mov-taunts": ["USTM_01", "USTM_02", "USTM_03"]
+ 	}
+}
