@@ -2,25 +2,26 @@
 	"name"				: "TestLobby",
 	"author"			: "Dennis Mitten",
 	"type"				: "game",
+
+	"players"			:
+	{
+	},
+
 	"objects"			:
 	{
-		"buy_conscript"	:
+		"ui_buy_ussr_conscript"	:
 		{
+			"parent"	: "Dennis",
 			"x"   		: 172,
 			"y"   		: -154,
 			"model"		: "buy_conscript_btn"
 		},
-		"buy_rocketman"	:
+		"ui_buy_ussr_rocketman"	:
 		{
+			"parent"	: "Dennis",
 			"x"   		: 172,
 			"y"   		: -77,
 			"model"		: "buy_rocketman_btn"
-		},
-		"ubarracks"		:
-		{
-			"x"   		: 200,
-			"y"   		: 300,
-			"model"		: "ussr_barracks"
 		}
 	}
 }

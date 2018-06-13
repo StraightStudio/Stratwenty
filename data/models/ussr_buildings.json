@@ -9,6 +9,7 @@
 			"sox"		: 24,
 			"soy"		: 128,
 			"stype"		: "barracks",
+			"units"		: ["ussr_conscript", "ussr_rocketman"],
 
 			"texture"	: "ussr_barracks",
 			"animation"	: "ussr_barracks",

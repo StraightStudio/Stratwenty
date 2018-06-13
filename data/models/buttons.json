@@ -41,7 +41,7 @@
 		"animation" : "ui_button",
 		"type" 		: "button",
 		"hover"		: "snd hover",
-		"click"		: "spw conscript"
+		"click"		: "spw barracks:ussr_conscript"
 	},
 	"buy_rocketman_btn" :
 	{
@@ -52,6 +52,6 @@
 		"animation" : "ui_button",
 		"type" 		: "button",
 		"hover"		: "snd hover",
-		"click"		: "spw rocketman"
+		"click"		: "spw barracks:ussr_rocketman"
 	}
 }

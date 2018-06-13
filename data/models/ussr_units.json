@@ -1,5 +1,5 @@
 {
-	"ussr_soldier" :
+	"ussr_conscript" :
  	{
 		"w"   		: 64,
 		"h"   		: 72,
@@ -10,7 +10,25 @@
 		"animation"	: "ussr_sw",
 		"type" 		: "actor",
 
-		"sel-taunts": ["USTS_01", "USTS_02", "USTS_03"],
-		"mov-taunts": ["USTM_01", "USTM_02", "USTM_03"]
+		"sel-taunts": ["USTS_01_C", "USTS_02_C", "USTS_03_C"],
+		"mov-taunts": ["USTM_01_C", "USTM_02_C", "USTM_03_C"],
+
+		"source"	: "barracks"
+ 	},
+ 	"ussr_rocketman" :
+ 	{
+		"w"   		: 64,
+		"h"   		: 72,
+		"rw"		: 32,
+		"rh"		: 48,
+
+		"texture"	: "ussr_soldier",
+		"animation"	: "ussr_sw",
+		"type" 		: "actor",
+
+		"sel-taunts": ["USTS_01_R", "USTS_02_R", "USTS_03_R"],
+		"mov-taunts": ["USTM_01_R", "USTM_02_R", "USTM_03_R"],
+
+		"source"	: "barracks"
  	}
 }
