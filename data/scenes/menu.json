@@ -16,5 +16,6 @@
 			"y"   		: 200,
 			"model"		: "quit_btn"
 		}
-	}
+	},
+	"bg-track"			: "menu_music"
 }
