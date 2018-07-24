@@ -1,9 +1,4 @@
-
-#ifdef _WIN64
 #include <config.h>
-#else 
-#include <include/config.h>
-#endif
 
 
 void Config::cfgerr(unistring errmsg)
@@ -203,7 +198,6 @@ void Config::loadCfg(AppConfig &conf)
             actor.sel_taunts = sts;
             actor.mov_taunts = mts;
             conf.app_models[name] = actor;
-            Logger::log("Config", "Loaded model '"+name+"'.");
         }
     }
 
@@ -271,7 +265,6 @@ void Config::loadCfg(AppConfig &conf)
                 tmprect.x = i*tmprect.w;
                 conf.app_animations[an].addFrame(tmprect);
             }
-            Logger::log("Config", "Loaded "+to_string(afc)+" frame(-s) of '"+an+"' animation with fps="+to_string(afps));
         }
     }
 

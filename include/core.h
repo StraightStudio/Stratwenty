@@ -1,9 +1,7 @@
 #ifndef CORE_H
 #define CORE_H
 
-#ifdef _WIN64
 #include <logger.h>
-
 #include <depends.h>
 #include <scene2d.h>
 #include <texloader.h>
@@ -12,18 +10,7 @@
 #include <audiomanager.h>
 #include <animationmanager.h>
 #include <vec2.h>
-#else
-#include <include/logger.h>
 
-#include <include/depends.h>
-#include <include/scene2d.h>
-#include <include/texloader.h>
-#include <include/sceneparser.h>
-#include <include/gameevents.h>
-#include <include/audiomanager.h>
-#include <include/animationmanager.h>
-#include <include/vec2.h>
-#endif
 
 class Core
 {
@@ -36,6 +23,9 @@ public:
     int exec();
     void loadTextures();
     void draw_objs();
+
+    void draw_objs3D();
+    void initGL();
 
     void initialSpawn();
 
@@ -89,6 +79,14 @@ private:
     // etc...
     unistring pname;
     SDL_Rect m_camrect;
+
+    SDL_GLContext m_glcontext;
+    GLuint m_shaderprogram;
+    GLuint m_VAO; // Vertex Arrays Object
+    GLuint m_VBO; // Vertex Buffer Object
+    GLuint m_vsh; // VertexShader (Model)
+    GLuint m_fsh; // FragmentShader (Texture, Color)
+    float m_fov;
 
     // S T E A M   A P I
 
